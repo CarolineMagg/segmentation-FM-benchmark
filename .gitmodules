@@ -13,3 +13,6 @@
 [submodule "submodules/distorch"]
 	path = submodules/distorch
 	url = https://github.com/jeromerony/distorch.git
+[submodule "submodules/SegVol"]
+	path = submodules/SegVol
+	url = https://github.com/BAAI-DCAI/SegVol.git
