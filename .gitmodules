@@ -4,3 +4,6 @@
 [submodule "submodules/SAMMed2D"]
 	path = submodules/SAMMed2D
 	url = https://github.com/OpenGVLab/SAM-Med2D.git
+[submodule "submodules/MedSAM"]
+	path = submodules/MedSAM
+	url = https://github.com/bowang-lab/MedSAM.git
