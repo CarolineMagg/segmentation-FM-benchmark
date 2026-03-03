@@ -16,3 +16,6 @@
 [submodule "submodules/SegVol"]
 	path = submodules/SegVol
 	url = https://github.com/BAAI-DCAI/SegVol.git
+[submodule "submodules/SAMMed3D"]
+	path = submodules/SAMMed3D
+	url = https://github.com/uni-medical/SAM-Med3D.git
