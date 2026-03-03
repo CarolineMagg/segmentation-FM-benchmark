@@ -28,3 +28,6 @@
 [submodule "submodules/medico_sam"]
 	path = submodules/medico_sam
 	url = https://github.com/computational-cell-analytics/medico-sam.git
+[submodule "submodules/MedSAM2"]
+	path = submodules/MedSAM2
+	url = https://github.com/bowang-lab/MedSAM2.git
