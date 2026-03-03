@@ -31,3 +31,6 @@
 [submodule "submodules/MedSAM2"]
 	path = submodules/MedSAM2
 	url = https://github.com/bowang-lab/MedSAM2.git
+[submodule "submodules/ScribblePrompt"]
+	path = submodules/ScribblePrompt
+	url = https://github.com/halleewong/ScribblePrompt.git
