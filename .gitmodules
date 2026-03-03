@@ -7,3 +7,6 @@
 [submodule "submodules/MedSAM"]
 	path = submodules/MedSAM
 	url = https://github.com/bowang-lab/MedSAM.git
+[submodule "submodules/sam2"]
+	path = submodules/sam2
+	url = https://github.com/facebookresearch/sam2.git
