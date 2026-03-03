@@ -22,3 +22,6 @@
 [submodule "submodules/vista3d"]
 	path = submodules/vista3d
 	url = https://github.com/Project-MONAI/VISTA.git
+[submodule "submodules/nnInteractive"]
+	path = submodules/nnInteractive
+	url = https://github.com/MIC-DKFZ/nnInteractive.git
