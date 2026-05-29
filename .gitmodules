@@ -34,3 +34,6 @@
 [submodule "submodules/ScribblePrompt"]
 	path = submodules/ScribblePrompt
 	url = https://github.com/halleewong/ScribblePrompt.git
+[submodule "submodules/sam3"]
+	path = submodules/sam3
+	url = https://github.com/facebookresearch/sam3.git
