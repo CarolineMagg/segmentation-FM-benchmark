@@ -1,6 +1,6 @@
 # Benchmark for promptable FMs for segmentation
 
-Code base for prompt extraction from reference masks and inference of 11 foundation model (FM) for segmentation.<br>
+Code base for prompt extraction from reference masks and inference of 12 foundation model (FM) for segmentation.<br>
 
 ## Our study
 
@@ -29,6 +29,7 @@ The following models are included in this repository:
 
 * SAM
 * SAM2 Imagepredictor
+* SAM3 Imagepredictor
 * Med-SAM
 * SAM-Med2D
 * ScribblePrompt
@@ -37,6 +38,7 @@ The following models are included in this repository:
 **3D models:**
 
 * SAM2 Videopredictor
+* SAM3 Videopredictor
 * Med-SAM2
 * SAM-Med3D
 * MedicoSAM 3D mode (prompt-propagation)
@@ -86,6 +88,9 @@ conda activate medico_sam
 pip install nibabel
 ````
 
+3. SAM3
+Follow these [instructions](https://github.com/facebookresearch/sam3#installation).
+
 3. Other FMs
 ````
 conda create --name sam_family python=3.11
@@ -107,6 +112,7 @@ As of now, all checkpoints have to be manually downloaded from the origin source
 
 * SAM: [all](https://github.com/facebookresearch/segment-anything/tree/6fdee8f2727f4506cfbbe553e23b895e27956588)
 * SAM2: [all](https://github.com/facebookresearch/sam2/tree/2b90b9f5ceec907a1c18123530e92e794ad901a4)
+* SAM3: [sam3](https://github.com/facebookresearch/sam3#getting-started)
 * Med-SAM: [medsam_vit_b](https://drive.google.com/drive/folders/1ETWmi4AiniJeWOt6HAsYgTjYv_fkgzoN)
 * Med-SAM2:
   run [download.sh](https://github.com/bowang-lab/MedSAM2/blob/332f30d420f1d1b08e2a79b3ae6a602458808383/download.sh) in
