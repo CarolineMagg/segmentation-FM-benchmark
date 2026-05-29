@@ -154,6 +154,7 @@ as git submodules at pre-defined commits:
 
 * [SAM](https://github.com/facebookresearch/segment-anything/tree/6fdee8f2727f4506cfbbe553e23b895e27956588)
 * [SAM2](https://github.com/facebookresearch/sam2/tree/2b90b9f5ceec907a1c18123530e92e794ad901a4)
+* [SAM3](https://github.com/facebookresearch/sam3/tree/2d08d7312050b6f65b28f1b458cd91f8cd57814a)
 * [Med-SAM](https://github.com/bowang-lab/MedSAM/tree/2b7c64cf80bf1aba546627db9b13db045dd1cbab)
 * [Med-SAM2](https://github.com/bowang-lab/MedSAM2/tree/332f30d420f1d1b08e2a79b3ae6a602458808383)
 * [SAM-Med2D](https://github.com/OpenGVLab/SAM-Med2D/tree/bfd2b93b1158100c8abd81f61766a2de92c1c175)
