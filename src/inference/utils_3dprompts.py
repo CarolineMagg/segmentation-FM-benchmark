@@ -196,10 +196,10 @@ def extract_original_3d_prompt_from_3d(prompts: dict, prompts_to_be_used: list[s
     input_bbox_original3d: np.ndarray = input_bbox_tmp_list if len(input_bbox_tmp_list) > 0 else []
     # make unique
     if len(input_point_original3d) > 0:
-        unique_array, indices = np.unique(input_point_original3d, axis=1, return_index=True)
+        unique_array, indices = np.unique(input_point_original3d, axis=0, return_index=True)
         sorted_indices = np.sort(indices)
         if len(sorted_indices) > 0:
-            input_point_original3d = input_point_original3d[:, sorted_indices]
+            input_point_original3d = input_point_original3d[sorted_indices]
     if len(input_bbox_original3d) > 0:
         unique_array, indices = np.unique(input_bbox_original3d, axis=0, return_index=True)
         sorted_indices = np.sort(indices)
