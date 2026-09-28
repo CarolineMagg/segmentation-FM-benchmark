@@ -53,6 +53,7 @@ def read_image_depth_first_with_meta_info(path_image: Path, file_id: str, file_e
     new_spacing = [ori_spacing[i] for i in perm]
     new_affine = np.diag(new_spacing + [1])
     meta_info = {}
+    meta_info["original_nifti_affine"] = nii_image_affine.copy()
     meta_info["original_subject_affine"] = new_affine
     meta_info["original_subject_spacing"] = new_spacing
     meta_info["original_subject_spatial_shape"] = input_image.shape
