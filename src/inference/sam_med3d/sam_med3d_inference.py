@@ -144,7 +144,7 @@ def run_inference_sam_med3d(json_file: Union[Path, str], output_folder: Union[Pa
 
         # convert dict to segmentation mask & store
         write_output_masks_to_nii(output_msk, labels_lookup, output_dir, file_id, file_ending,
-                                  meta_info["original_subject_affine"], verbose=True)
+                                  meta_info["original_nifti_affine"], verbose=True)
         sample_meta_data_dict["time_total"] = np.sum(
             [float(sample_meta_data_dict[k]["time"]) for k in sample_meta_data_dict.keys()])
         all_meta_data[file_id] = sample_meta_data_dict
