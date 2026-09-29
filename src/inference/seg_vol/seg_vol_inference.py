@@ -146,8 +146,8 @@ def run_inference_segvol(json_file: Union[Path, str], output_folder: Union[Path,
 
             # prediction
             start_time: float = time.time()
-            volume_segments, _ = prompt_based_prediction_segvol_style_combination(predictor, input_tensor.unsqueeze(0),
-                                                                                  input_tensor_zoom_out.unsqueeze(0),
+            volume_segments, _ = prompt_based_prediction_segvol_style_combination(predictor, input_tensor.float().unsqueeze(0),
+                                                                                  input_tensor_zoom_out.float().unsqueeze(0),
                                                                                   input_point_zoom3d,
                                                                                   input_box_zoom3d,
                                                                                   spatial_size, use_zoom_in)
